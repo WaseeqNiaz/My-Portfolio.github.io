@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Protofile Web-Site </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Contanier">
+        <div class="sidebar sidebarGo" areas-hidden="true">
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="intro.html" target="_blank"> My Intro</a></li>
+                    <li><a href="Services.html" target="_blank">Services</a></li>
+                    <li><a href="Blog.html" target="_blank"> Blog</a></li>
+                    <li><a href="Contact.html" target="_blank"> Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main Contactform">
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="ContactForm">
+                <h1 id="conH1">Contact Us by Entring yours data.</h1>
+                <form action="backend.php">
+                    <div class="formgroup">
+                        <label for="name">NAME:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name"
+                            autocomplete="family-name" />
+                    </div>
+                    <div class="formgroup">
+                        <label for="my role">ROLE:</label>
+                        <input type="text" name="myrole" id="my role" placeholder="Enter Your Role"
+                            autocomplete="family-name">
+
+                    </div>
+                    <div class="formgroup">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email"
+                            autocomplete="family-name">
+                    </div>
+                    <div class="formgroup">
+                        <label for="Phone No#">Phone No#:</label>
+                        <input type="number" name="Phone No#" id="Phone No#" placeholder="Enter Your Phone No#" max="11">
+                    </div>
+                    <div class="formgroup">
+                        <label for="pin">Password</label>
+                        <input id="pin" name="pin" type="password" placeholder="Enter Your password" pattern="\d{4,4}" required />
+                    </div>
+                    <!-- <div class="formgroup">
+                        <label for="YOURSELF"> Write About yourself<span class="opsm">(Optional)</span>:</label>
+                        <br><textarea name="my text" cols="30" rows="10" id="YOURSELF"
+                            placeholder="Write about yourself"></textarea>
+                            </div> -->
+                            <div class="formgroup">
+                                <div class="btn ">
+                                    <input type="submit" value="SUBMIT ">
+                                    <input type="reset" value="RESET ">
+                                </div>
+                            </div>
+                        
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

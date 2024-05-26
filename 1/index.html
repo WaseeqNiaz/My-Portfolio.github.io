@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Protofile Web-Site </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="Contanier">
+        <div class="sidebar sidebarGo" areas-hidden="true">
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="intro.html" target="_blank"> My Intro</a></li>
+                    <li><a href="Services.html" target="_blank">Services</a></li>
+                    <li><a href="Blog.html" target="_blank"> Blog</a></li>
+                    <li><a href="Contact.html" target="_blank"> Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <h1>WelCome to my page</h1>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+           <div class="infoContanier">
+            <div class="devpic">
+                <img src="dev2.png.jpg" alt="Waseeq" >
+            </div>
+            <div class="devinfo">
+                <div class="hello">Hi,I am</div>
+                <div class="name">Waseeq Niaz </div>
+                <div class="about">I am <span class= "aboutmore" class="element" id="element"></span></div>
+                
+                <!-- <div class="about">Front-End Developer, Graphic Desginer, Vedio Editor and Programmer</div> -->
+                <!-- <div class="aboutmore">I am Developer. I love Saudia Arabia Because of the Khana Kaba and Masjid-e-Nabwi. I want to go there to perform Hajj and Umrah.</div> -->
+                <div class="btn">
+                    <button><a href="Real presentation.pptx">Download CV</a></button>
+                    <button><a href="Contact.html">Contact me</a></button>
+                </div>
+
+            </div>
+            
+           </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', 'Student of BSCS', 'Vedio Editor', 'Graphic Designer'],
+            typeSpeed: 120,
+        });
+    </script>
+</body>
+</html>
